@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #313136;
+}
+#resume {
+    width: 1200px;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-around;
+}
+.whited, .whited a{
+    color: white;
+}
+
+#first-section, footer {
+    background-color: #3b3c41;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    z-index: 0;
+}
+
+#personal-data, #h1 {
+    align-self: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+h2, .subtitle {
+    padding: 5px;
+    font-family: "Times New Roman";
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #313136;
+}
+
+.subtitle h3 {
+    margin-left: 0px;
+}
+
+
+.data-container img {
+    padding: 10px;
+}
+
+.container p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.title, .data-container, footer {
+    display: flex;
+}
+
+.title, .subtitle {
+    color: #d8bd9b;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.subtitle {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.padded {
+    margin-left: 40px;
+}
+
+.title img {
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.establecimiento {
+    width: 350px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.establecimiento p, h3{
+    margin: 0;
+    padding: 10px;
+}
+
+.information {
+    width: 800px;
+}
+
+#second-section{
+    display: flex;
+    margin: 30px 0px;
+
+}
+
+#second-section .container{
+    margin-left: 150px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 20px;
+}
+
+ul li.subtitle {
+    list-style-type: disc;
+    padding-left: 0px;
+}
+
